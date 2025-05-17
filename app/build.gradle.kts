@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.example.shoppingapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.shoppingapp"
@@ -73,7 +73,7 @@ dependencies {
 
     implementation("com.google.accompanist:accompanist-pager:0.28.0")
     implementation("com.google.accompanist:accompanist-pager-indicators:0.28.0")
-    implementation("com.razorpay:checkout:4.0.0")
+    implementation("com.razorpay:checkout:1.6.33")
 
 
     implementation("com.canopas.compose-animated-navigationbar:bottombar:1.0.1")
