@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.shoppingapp.presentation.LoginScreenUi
 import com.example.shoppingapp.presentation.SignUpScreen
 import com.example.shoppingapp.ui.theme.ShoppingAppTheme
 
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ShoppingAppTheme {
 
-                SignUpScreen()
+                LoginScreenUi()
             }
         }
     }
